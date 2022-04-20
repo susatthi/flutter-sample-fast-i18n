@@ -5,7 +5,7 @@
  * Locales: 2
  * Strings: 4 (2.0 per locale)
  *
- * Built on 2022-04-20 at 21:18 UTC
+ * Built on 2022-04-20 at 21:24 UTC
  */
 
 import 'package:flutter/widgets.dart';
@@ -315,7 +315,9 @@ class _StringsSampleEn {
 
 	// Translations
 	String get title => 'Flutter Sample Localizations';
-	String get message => 'You have pushed the button this many times:';
+
+	/// This is comments
+	String message({required Object count}) => 'You have pushed the button this many times: $count';
 }
 
 // Path: <root>
@@ -341,5 +343,7 @@ class _StringsSampleJa implements _StringsSampleEn {
 
 	// Translations
 	@override String get title => '多言語化サンプル';
-	@override String get message => 'ボタンを押した回数';
+
+	/// これはコメントです
+	@override String message({required Object count}) => 'ボタンを押した回数: $count';
 }

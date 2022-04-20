@@ -1,6 +1,8 @@
 {
+  "@@locale": "ja",
   "sample": {
     "title": "多言語化サンプル",
-    "message": "ボタンを押した回数"
+    "message": "ボタンを押した回数: $count",
+    "@message": "これはコメントです"
   }
 }
