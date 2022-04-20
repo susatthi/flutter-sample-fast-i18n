@@ -6,7 +6,7 @@ targets:
           # 入力ファイルへのパス
           input_directory: lib/i18n
           # 入力ファイル名の拡張子
-          input_file_pattern: .i18n.json
+          input_file_pattern: .i18n.yaml
           # 出力ファイルへのパス
           output_directory: lib/i18n
           # 出力ファイル名
