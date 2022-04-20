@@ -1,0 +1,22 @@
+targets:
+  $default:
+    builders:
+      fast_i18n:
+        options:
+          # 入力ファイルへのパス
+          input_directory: lib/i18n
+          # 入力ファイル名の拡張子
+#          input_file_pattern: .i18n.json
+          # 出力ファイルへのパス
+          output_directory: lib/i18n
+          # 出力ファイル名
+#          output_file_name: strings.g.dart
+          # 機能やWidget単位で言語設定ファイルを分ける場合はtrueに設定
+#          namespaces: true
+          # 言語リソースにアクセスするグローバルな変数名
+          translate_var: i18n
+          # 配列アクセスを禁止する場合はfalseに設定
+          flat_map: false
+          # 複数系に対応しない場合はoffに設定
+          pluralization:
+            auto: off
