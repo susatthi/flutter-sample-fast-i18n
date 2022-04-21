@@ -1,3 +1,3 @@
 key,(comments),en,ja
 title,これはコメントです。,Flutter Sample Localizations,多言語化サンプル
-message,コメントはコメントとして出力されます。,You have pushed the button this many times: $count,ボタンを押した回数: $count
+message,コメントはコメントとして出力されます。,[@:sample.title] You have pushed the button this many times: $count $suffix,[@:sample.title] ボタンを押した回数: $count $suffix

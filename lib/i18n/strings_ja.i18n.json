@@ -2,7 +2,7 @@
   "@@locale": "ja",
   "sample": {
     "title": "多言語化サンプル",
-    "message": "ボタンを押した回数: $count",
+    "message": "[@:sample.title] ボタンを押した回数: $count $suffix",
     "@message": "これはコメントです"
   }
 }
